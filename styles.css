@@ -1,0 +1,177 @@
+/* Genel Stil */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #1f3c88, #1ca8f3);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.okt {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Navigasyon */
+nav {
+    background: #222;
+    text-align: center;
+    padding: 0.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #1ca8f3;
+}
+
+/* Container Genel Ayar */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Başlıklar */
+h2 {
+    color: #1f3c88;
+    border-bottom: 3px solid #1ca8f3;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* İş Deneyimi ve Eğitim */
+.job, .education-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #1f3c88;
+    background: #f9f9f9;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.job:hover, .education-item:hover {
+    transform: scale(1.02);
+}
+
+/* Yetenekler */
+.skills-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills-grid div {
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    background: #e3f2fd;
+    border-left: 5px solid #1ca8f3;
+    border-radius: 8px;
+}
+
+/* İletişim */
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.contact-list i {
+    margin-right: 10px;
+    color: #1ca8f3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
+/* Header Genel Stil */
+header {
+    position: relative;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(-45deg, #0d1b2a, #1b263b, #415a77, #0d1b2a);
+    background-size: 400% 400%;
+    animation: gradientAnimation 8s ease infinite;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 5px solid #1ca8f3;
+}
+
+/* Gradient Animasyonu */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* İsim */
+.okt {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #2e2626;
+    text-shadow: 0 0 15px rgba(28, 168, 243, 0.8), 0 0 30px rgba(28, 168, 243, 0.6);
+}
+
+/* Alt Başlık */
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 0.9;
+    color: #2e2626;
+    text-shadow: 0 0 10px rgba(28, 168, 243, 0.7);
+}
+
+
