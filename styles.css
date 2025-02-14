@@ -227,3 +227,23 @@ header {
         font-size: 1rem;
     }
 }
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.text-container {
+    flex: 1; /* Yazı alanını genişletir */
+    text-align: center; /* Yazıyı yatayda ortalar */
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
